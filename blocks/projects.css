@@ -1,0 +1,59 @@
+.projects {
+  padding: 120px 0 100px;
+}
+
+.projects__title {
+  margin: 0 auto 85px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.projects__subtitle {
+  margin: 0 auto 100px;
+  text-align: center;
+  max-width: 730px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.projects__link {
+  text-decoration: none;
+  color: #0094ff;
+}
+
+.projects__list {
+  max-width: 1245px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.projects__list-item {
+  width: 375px;
+  height: 275px;
+  background-color: var(--content-color-);
+  color: #fff;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.projects__list-item_active {
+  display: none;
+}
+
+.projects__list-item:hover {
+  transform: scale(1.2);
+}
+
+/* .projects__list-item:hover ::content {
+  content: "The best French pancakes in Columbus, Ohio. Don't miss your chance and order us right now!";
+} */

@@ -1,0 +1,42 @@
+@import url("../vendor/normalize.css");
+
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/floating-bar.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/about.css");
+@import url("../blocks/projects.css");
+
+:root {
+  --background-color-: #233142;
+  --header-color-: #455d7a;
+  --border-color-: #c4c4c4;
+  --font-color-: #fff;
+  --button-color-: #233142;
+  --content-color-: #455d7a;
+}
+
+.body_light_theme {
+  --background-color-: #e9e5e3;
+  --header-color-: #c09e72;
+  --border-color-: #c09e72;
+  --font-color-: #000;
+  --button-color-: #9e6228;
+  --content-color-: #c09e72;
+}
+
+.body {
+  background-color: var(--background-color-);
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--font-color-);
+}

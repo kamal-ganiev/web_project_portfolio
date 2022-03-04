@@ -1,0 +1,39 @@
+@keyframes sliding {
+  0% {
+    margin-left: -200%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    margin-left: 200%;
+    opacity: 0;
+  }
+}
+
+.floating-bar__item {
+  width: 110px;
+  height: 50px;
+  background: var(--button-color-);
+  border: 3px solid var(--border-color-);
+  box-sizing: border-box;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+
+.floating-bar__first {
+  animation: sliding 6s normal infinite linear;
+}
+
+.floating-bar__second {
+  animation: sliding 6s 2s both infinite linear;
+}
+
+.floating-bar__third {
+  animation: sliding 6s 4s both infinite linear;
+}
