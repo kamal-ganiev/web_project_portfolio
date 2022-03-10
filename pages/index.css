@@ -6,6 +6,8 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/about.css");
 @import url("../blocks/projects.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/contact.css");
 
 :root {
   --background-color-: #233142;
@@ -14,6 +16,7 @@
   --font-color-: #fff;
   --button-color-: #233142;
   --content-color-: #455d7a;
+  --footer-color-: #455d7a;
 }
 
 .body_light_theme {
@@ -23,6 +26,7 @@
   --font-color-: #000;
   --button-color-: #9e6228;
   --content-color-: #c09e72;
+  --footer-color-: #c09e72;
 }
 
 .body {

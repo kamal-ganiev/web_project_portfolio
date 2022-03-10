@@ -10,6 +10,11 @@
 .nav__link {
   text-decoration: none;
   color: white;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: #d9d9d9;
 }
 
 .nav___button {
@@ -18,10 +23,6 @@
   border: 0;
   height: 50px;
   width: 50px;
-  /* background-image: url("../images/light-mode-icon.svg");
-    background-position: center;
-    background-size: 30px;
-    background-repeat: no-repeat; */
   display: flex;
   justify-content: center;
   align-items: center;

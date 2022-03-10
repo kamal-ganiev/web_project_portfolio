@@ -45,12 +45,14 @@
         <div class="header__logo"></div>
         <nav class="nav">
           <ul class="nav__links">
-            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Projects</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Contacts</a>
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacts</a>
             </li>
             <li class="nav__item">
               <button class="nav___button">
@@ -91,7 +93,7 @@
           </div>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
           <div class="about__content">
             <h2 class="about__title">Hi</h2>
             <p class="about__text">
@@ -112,7 +114,7 @@
           </div>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
           <h2 class="projects__title">Projects</h2>
           <p class="projects__subtitle">
             I haven’t been working on much projects yet, but I’m looking forward
@@ -121,10 +123,13 @@
           </p>
           <div class="projects__list">
             <div class="projects__list-item">
-              <p class="projects__list-title">Zara Food Truck</p>
+              <figcaption class="projects__list-title">
+                Zara Food Truck
+              </figcaption>
               <div class="projects__list-item_active">
-                The best French crepes in Columbus, Ohio. Don't miss your chance
-                and order us right now!
+                <figcaption class="projects__figcaption_active">
+                  Hello
+                </figcaption>
               </div>
             </div>
             <div class="projects__list-item">
@@ -149,7 +154,68 @@
             </div>
           </div>
         </section>
+
+        <section class="contact">
+          <h3 class="contact__title">Want to team up? It’s my pleasure!</h3>
+          <p class="contact__subtitle">Hit me up!</p>
+          <div class="contact__buttons">
+            <a href="#" class="contact__button-link"
+              ><button class="contact__button">Email me!</button></a
+            >
+            <p class="contact__buttons-divider">or</p>
+            <a href="#" class="contact__button-link"
+              ><button class="contact__button">
+                Let's have a cup of coffee!
+              </button></a
+            >
+          </div>
+          <ul class="contact__links">
+            <li class="contact__list-item">
+              <a href="#" class="contact__link"
+                ><img
+                  id="insta"
+                  class="contact__link-icon"
+                  src="./images/insta_icon_dark.svg"
+                  alt="Instagram Icon"
+                />
+              </a>
+            </li>
+            <li class="contact__list-item">
+              <a href="#" class="contact__link"
+                ><img
+                  id="github"
+                  class="contact__link-icon"
+                  src="./images/GitHub_icon_dark.svg"
+                  alt="GitHub Icon"
+              /></a>
+            </li>
+            <li class="contact__list-item">
+              <a href="#" class="contact__link"
+                ><img
+                  id="facebook"
+                  class="contact__link-icon"
+                  src="./images/facebook_icon_dark.svg"
+                  alt="Facebook Icon"
+              /></a>
+            </li>
+            <li class="contact__list-item">
+              <a href="#" class="contact__link">
+                <img
+                  id="vk"
+                  class="contact__link-icon"
+                  src="./images/vk_icon_dark.svg"
+                  alt="VK Icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
       </main>
+      <footer class="footer">
+        <p class="footer__copyrights">
+          Designed & Built by Kamal Ganiev © 2022
+        </p>
+      </footer>
     </div>
   </body>
   <script src="./pages/index.js"></script>
